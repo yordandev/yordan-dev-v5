@@ -29,16 +29,16 @@
 </template>
 
 <script lang="ts" setup>
-import type { RouteLocationRaw } from "vue-router";
+import type { NuxtLinkProps } from "#app";
 
 interface Props {
-  to: RouteLocationRaw;
+  to: NuxtLinkProps["to"];
   target?: string;
   showIcon?: boolean;
 }
 
 withDefaults(defineProps<Props>(), {
   showIcon: false,
-  target: undefined,
+  target: "_blank",
 });
 </script>

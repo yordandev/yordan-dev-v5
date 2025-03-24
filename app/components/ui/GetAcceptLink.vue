@@ -1,7 +1,6 @@
 <template>
   <NuxtLink
     to="https://www.getaccept.com/"
-    target="_blank"
     class="inline-flex items-baseline align-center relative group"
   >
     <span class="absolute inset-x-0 bottom-[-0px] h-[1px] bg-[#FE9500]"></span>

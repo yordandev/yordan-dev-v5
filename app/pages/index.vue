@@ -13,7 +13,7 @@
         Outside of work, I love feeding my curiosity — be it understanding why
         cats have superior night vision to figuring out how to export Apple
         Health data to create pretty visualizations. Speaking of cats,
-        <StyledNavigationLink to="/images/chonky.jpg" target="_blank"
+        <StyledNavigationLink to="/images/chonky.jpg"
           >here</StyledNavigationLink
         >
         is my beautiful daughter. I also enjoy exploring local coffee shops,
@@ -22,7 +22,6 @@
         public transport and electrical grids. (I highly recommend this
         <StyledNavigationLink
           to="https://www.goodreads.com/book/show/60690050-engineering-in-plain-sight"
-          target="_blank"
         >
           book</StyledNavigationLink
         >)
@@ -55,18 +54,14 @@
       <h2 class="mb-3 text-base font-medium text-slate-800">Connect</h2>
       <p>
         You can reach me on
-        <StyledNavigationLink
-          to="https://bsky.app/profile/yordan.dev"
-          target="_blank"
+        <StyledNavigationLink to="https://bsky.app/profile/yordan.dev"
           >Bluesky </StyledNavigationLink
         >,
-        <StyledNavigationLink to="https://github.com/yordandev" target="_blank"
+        <StyledNavigationLink to="https://github.com/yordandev"
           >GitHub
         </StyledNavigationLink>
         or
-        <StyledNavigationLink
-          to="https://www.linkedin.com/in/yordandev/"
-          target="_blank"
+        <StyledNavigationLink to="https://www.linkedin.com/in/yordandev/"
           >LinkedIn </StyledNavigationLink
         >.
       </p>
