@@ -78,13 +78,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [
-    "@nuxt/content",
-    "@nuxt/eslint",
-    "@nuxt/fonts",
-    "@nuxt/image",
-    "@nuxtjs/tailwindcss",
-  ],
+  modules: ["@nuxt/eslint", "@nuxt/fonts", "@nuxtjs/tailwindcss"],
   fonts: {
     families: [
       {
