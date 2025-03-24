@@ -1,5 +1,5 @@
 <template>
-  <header class="flex flex-col gap-1 mb-32">
+  <header class="flex flex-col gap-4 mb-32">
     <IridescentCircle />
     <div class="flex flex-col gap-0">
       <NuxtLink to="/" class="text-base font-medium text-slate-700"

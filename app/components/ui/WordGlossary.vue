@@ -1,3 +1,5 @@
+<!-- https://dribbble.com/shots/3393522-Glossary-Term-Inline-Tooltip-Expanding-Definition -->
+
 <template>
   <span class="inline-expander group relative">
     <button

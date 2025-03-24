@@ -1,3 +1,5 @@
+<!-- https://www.reactbits.dev/backgrounds/iridescence -->
+
 <template>
   <div
     ref="containerRef"
@@ -64,10 +66,8 @@ onMounted(() => {
   varying vec2 vUv;
   
   void main() {
-    // Center the UV coordinates
     vec2 uv = (vUv - 0.5) * 2.0;
     
-    // Iridescent effect
     float d = -uTime * 0.5;
     float a = 0.0;
     for (float i = 0.0; i < 8.0; ++i) {
