@@ -78,7 +78,12 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/eslint", "@nuxt/fonts", "@nuxtjs/tailwindcss"],
+  modules: [
+    "@nuxt/eslint",
+    "@nuxt/fonts",
+    "@nuxtjs/tailwindcss",
+    "@nuxt/scripts",
+  ],
   fonts: {
     families: [
       {
@@ -89,6 +94,15 @@ export default defineNuxtConfig({
     defaults: {
       weights: [400, 500, 600, 700],
       styles: ["normal", "italic"],
+    },
+  },
+  $production: {
+    scripts: {
+      registry: {
+        umamiAnalytics: {
+          websiteId: "b9cd43b2-a85a-497f-aaf9-09507cb06e8d",
+        },
+      },
     },
   },
 });

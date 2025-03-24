@@ -6,14 +6,16 @@
         I&apos;m a software engineer building web (and occasionally mobile)
         apps, focusing on the end user experience. I'm currently working as a
         software engineer at
-        <GetAcceptLink />
+        <GetAcceptLink data-umami-event="GetAccept link clicked" />
         in Sweden. I use he/him pronouns.
       </p>
       <p class="mb-3">
         Outside of work, I love feeding my curiosity — be it understanding why
         cats have superior night vision to figuring out how to export Apple
         Health data to create pretty visualizations. Speaking of cats,
-        <StyledNavigationLink to="/images/chonky.jpg"
+        <StyledNavigationLink
+          to="/images/chonky.jpg"
+          data-umami-event="Chonky viewed"
           >here</StyledNavigationLink
         >
         is my beautiful daughter. I also enjoy exploring local coffee shops,
@@ -31,6 +33,7 @@
         <WordGlossary
           word="yapper"
           definition="Someone who speaks persistently, often at length, and sometimes to the point of overwhelming or annoying others."
+          data-umami-event="Yapper definition clicked"
         />, I can talk endlessly about topics I'm passionate about, and I dive
         deep into anything that interests me. I also pride myself on bringing
         fun, inclusion, and a sense of community to any team I join.
@@ -54,14 +57,20 @@
       <h2 class="mb-3 text-base font-medium text-slate-800">Connect</h2>
       <p>
         You can reach me on
-        <StyledNavigationLink to="https://bsky.app/profile/yordan.dev"
+        <StyledNavigationLink
+          to="https://bsky.app/profile/yordan.dev"
+          data-umami-event="Bluesky link clicked"
           >Bluesky </StyledNavigationLink
         >,
-        <StyledNavigationLink to="https://github.com/yordandev"
+        <StyledNavigationLink
+          to="https://github.com/yordandev"
+          data-umami-event="GitHub link clicked"
           >GitHub
         </StyledNavigationLink>
         or
-        <StyledNavigationLink to="https://www.linkedin.com/in/yordandev/"
+        <StyledNavigationLink
+          to="https://www.linkedin.com/in/yordandev/"
+          data-umami-event="LinkedIn link clicked"
           >LinkedIn </StyledNavigationLink
         >.
       </p>
